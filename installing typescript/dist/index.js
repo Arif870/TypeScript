@@ -1,3 +1,8 @@
-"use strict";
-const userName = "Arif";
-console.log(userName);
+// primtive data types
+
+// String
+const name2: String = "Arif";
+// Number
+// Boolean
+// undefined
+// null
