@@ -3,4 +3,4 @@ function Greet(...Greet: string[]): void {
   console.log(hello);
 }
 
-Greet("A", "B", "C", "D", "E");
+Greet("A", "B", "C", "D", "E", "F");
