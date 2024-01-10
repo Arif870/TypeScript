@@ -1,11 +1,17 @@
 // Interface should use only for object
 
-interface Iuser {
+interface IUser {
   name: string;
   age: number;
 }
 
-const userr: Iuser = {
+// Extended interface
+interface IExtended extends IUser {
+  isTrue: boolean;
+}
+
+const userr: IExtended = {
   name: "Arif",
   age: 20,
+  isTrue: true,
 };
